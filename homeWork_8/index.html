@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea id="textArea" cols="15" rows="5"></textarea>
+<button type="submit" id="saveBtn">save</button>
+<br>
+<br>
+<br>
+<form id="myForm">
+    <input type="checkbox" name="firstCheck" id="check1">
+    <input type="checkbox" name="secondCheck" id="check2">
+    <br>
+    <input type="text" name="text1" id="txt1">
+    <input type="text" name="text2" id="txt2">
+    <br>
+    <label for="male">
+        <input type="radio" name="gender" id="male">
+    </label>
+    <label for="female">
+        <input type="radio" name="gender" id="female">
+    </label>
+    <br>
+    <label for="select">
+        <select id="select">
+            <option>first</option>
+            <option>second</option>
+            <option>third</option>
+        </select>
+    </label>
+</form>
+<br>
+<br>
+<br>
+<br>
+<button type="button" id="previous">previous</button>
+<button type="button" id="next">next</button>
+<br>
+<label for="textAr">
+    <textarea id="textAr" cols="15" rows="5"></textarea>
+</label>
+<button type="submit" id="saveButton">save</button>
+
+<br>
+<br>
+<br>
+<br>
+<form id="book">
+    <input type="text" value="name" id="name">
+    <input type="text" value="phone" id="phone">
+    <input type="text" value="mail" id="mail">
+    <input type="text" value="department" id="dep">
+    <input type="text" value="birthday" id="birthday">
+</form>
+<button type="submit" id="sendBtn">send</button>
+<button type="submit" id="editBtn">edit</button>
+<button type="submit" id="delBtn">delete</button>
+<form id="editForm" style="visibility: hidden">
+    <input type="text" value="name" id="editname">
+    <input type="text" value="phone" id="editphone">
+    <input type="text" value="mail" id="editmail">
+    <input type="text" value="department" id="editdep">
+    <input type="text" value="birthday" id="editbirthday">
+    <br>
+    <button type="submit" id="confirmButt">confirm</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
